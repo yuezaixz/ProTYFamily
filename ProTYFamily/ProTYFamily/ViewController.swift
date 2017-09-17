@@ -94,7 +94,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             let gameScene = SCNScene(named: "game.scnassets/scene_1.scn")!
             sceneNode = gameScene.rootNode.childNode(withName: "Scene",
                                                      recursively: true)!
-            sceneNode!.position = SCNVector3Make(anchor.center.x, 0, anchor.center.z)
+            sceneNode!.position = SCNVector3Make(anchor.center.x, anchor.center.y, anchor.center.z)
         }
         node.addChildNode(sceneNode!)
     }
