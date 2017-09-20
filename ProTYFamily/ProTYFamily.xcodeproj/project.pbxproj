@@ -13,6 +13,19 @@
 		A60C29161F6CC45800F6041F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A60C29151F6CC45800F6041F /* Assets.xcassets */; };
 		A60C29191F6CC45800F6041F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A60C29171F6CC45800F6041F /* LaunchScreen.storyboard */; };
 		A60C29221F6CC7CA00F6041F /* game.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = A60C29211F6CC6BC00F6041F /* game.scnassets */; };
+		A6A1AA051F727AAD00922845 /* VirtualObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1A9FB1F727A5600922845 /* VirtualObjectSelection.swift */; };
+		A6A1AA061F727AAD00922845 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1A9FC1F727A5600922845 /* StatusViewController.swift */; };
+		A6A1AA071F727AAD00922845 /* FocusSquareSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1A9F81F727A5600922845 /* FocusSquareSegment.swift */; };
+		A6A1AA081F727AAD00922845 /* FocusSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1A9F91F727A5600922845 /* FocusSquare.swift */; };
+		A6A1AA091F727AAD00922845 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1A9F61F727A5600922845 /* Utilities.swift */; };
+		A6A1AA0A1F727AAD00922845 /* VirtualObjectLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA031F727A5900922845 /* VirtualObjectLoader.swift */; };
+		A6A1AA0B1F727AAD00922845 /* VirtualObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA041F727A5900922845 /* VirtualObject.swift */; };
+		A6A1AA121F727AEB00922845 /* VirtualObjectInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA0C1F727AE800922845 /* VirtualObjectInteraction.swift */; };
+		A6A1AA131F727AEB00922845 /* ViewController+ARSCNViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA0D1F727AE900922845 /* ViewController+ARSCNViewDelegate.swift */; };
+		A6A1AA141F727AEB00922845 /* ViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA0E1F727AE900922845 /* ViewController+Actions.swift */; };
+		A6A1AA151F727AEB00922845 /* ViewController+ObjectSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA0F1F727AEA00922845 /* ViewController+ObjectSelection.swift */; };
+		A6A1AA161F727AEB00922845 /* ThresholdPanGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA101F727AEA00922845 /* ThresholdPanGesture.swift */; };
+		A6A1AA171F727AEB00922845 /* VirtualObjectARView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1AA111F727AEA00922845 /* VirtualObjectARView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +37,19 @@
 		A60C29181F6CC45800F6041F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A60C291A1F6CC45800F6041F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A60C29211F6CC6BC00F6041F /* game.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = game.scnassets; sourceTree = "<group>"; };
+		A6A1A9F61F727A5600922845 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		A6A1A9F81F727A5600922845 /* FocusSquareSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquareSegment.swift; sourceTree = "<group>"; };
+		A6A1A9F91F727A5600922845 /* FocusSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusSquare.swift; sourceTree = "<group>"; };
+		A6A1A9FB1F727A5600922845 /* VirtualObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectSelection.swift; sourceTree = "<group>"; };
+		A6A1A9FC1F727A5600922845 /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		A6A1AA031F727A5900922845 /* VirtualObjectLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectLoader.swift; sourceTree = "<group>"; };
+		A6A1AA041F727A5900922845 /* VirtualObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObject.swift; sourceTree = "<group>"; };
+		A6A1AA0C1F727AE800922845 /* VirtualObjectInteraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectInteraction.swift; sourceTree = "<group>"; };
+		A6A1AA0D1F727AE900922845 /* ViewController+ARSCNViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ARSCNViewDelegate.swift"; sourceTree = "<group>"; };
+		A6A1AA0E1F727AE900922845 /* ViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Actions.swift"; sourceTree = "<group>"; };
+		A6A1AA0F1F727AEA00922845 /* ViewController+ObjectSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+ObjectSelection.swift"; sourceTree = "<group>"; };
+		A6A1AA101F727AEA00922845 /* ThresholdPanGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThresholdPanGesture.swift; sourceTree = "<group>"; };
+		A6A1AA111F727AEA00922845 /* VirtualObjectARView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VirtualObjectARView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,68 @@
 		A60C290B1F6CC45800F6041F /* ProTYFamily */ = {
 			isa = PBXGroup;
 			children = (
-				A60C29211F6CC6BC00F6041F /* game.scnassets */,
+				A6A1A9FA1F727A5600922845 /* Additional View Controllers */,
+				A6A1A9F71F727A5600922845 /* Focus Square */,
+				A6A1A9FD1F727A5800922845 /* Resources */,
+				A6A1A9F51F727A5600922845 /* Utilities */,
+				A6A1AA021F727A5900922845 /* Virtual Objects */,
 				A60C290C1F6CC45800F6041F /* AppDelegate.swift */,
 				A60C29101F6CC45800F6041F /* ViewController.swift */,
-				A60C29121F6CC45800F6041F /* Main.storyboard */,
-				A60C29151F6CC45800F6041F /* Assets.xcassets */,
-				A60C29171F6CC45800F6041F /* LaunchScreen.storyboard */,
-				A60C291A1F6CC45800F6041F /* Info.plist */,
+				A6A1AA101F727AEA00922845 /* ThresholdPanGesture.swift */,
+				A6A1AA0E1F727AE900922845 /* ViewController+Actions.swift */,
+				A6A1AA0D1F727AE900922845 /* ViewController+ARSCNViewDelegate.swift */,
+				A6A1AA0F1F727AEA00922845 /* ViewController+ObjectSelection.swift */,
+				A6A1AA111F727AEA00922845 /* VirtualObjectARView.swift */,
+				A6A1AA0C1F727AE800922845 /* VirtualObjectInteraction.swift */,
 			);
 			path = ProTYFamily;
+			sourceTree = "<group>";
+		};
+		A6A1A9F51F727A5600922845 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1A9F61F727A5600922845 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		A6A1A9F71F727A5600922845 /* Focus Square */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1A9F81F727A5600922845 /* FocusSquareSegment.swift */,
+				A6A1A9F91F727A5600922845 /* FocusSquare.swift */,
+			);
+			path = "Focus Square";
+			sourceTree = "<group>";
+		};
+		A6A1A9FA1F727A5600922845 /* Additional View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1A9FB1F727A5600922845 /* VirtualObjectSelection.swift */,
+				A6A1A9FC1F727A5600922845 /* StatusViewController.swift */,
+			);
+			path = "Additional View Controllers";
+			sourceTree = "<group>";
+		};
+		A6A1A9FD1F727A5800922845 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A60C291A1F6CC45800F6041F /* Info.plist */,
+				A60C29121F6CC45800F6041F /* Main.storyboard */,
+				A60C29171F6CC45800F6041F /* LaunchScreen.storyboard */,
+				A60C29151F6CC45800F6041F /* Assets.xcassets */,
+				A60C29211F6CC6BC00F6041F /* game.scnassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A6A1AA021F727A5900922845 /* Virtual Objects */ = {
+			isa = PBXGroup;
+			children = (
+				A6A1AA031F727A5900922845 /* VirtualObjectLoader.swift */,
+				A6A1AA041F727A5900922845 /* VirtualObject.swift */,
+			);
+			path = "Virtual Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,7 +219,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6A1AA071F727AAD00922845 /* FocusSquareSegment.swift in Sources */,
+				A6A1AA161F727AEB00922845 /* ThresholdPanGesture.swift in Sources */,
+				A6A1AA151F727AEB00922845 /* ViewController+ObjectSelection.swift in Sources */,
+				A6A1AA0A1F727AAD00922845 /* VirtualObjectLoader.swift in Sources */,
+				A6A1AA081F727AAD00922845 /* FocusSquare.swift in Sources */,
+				A6A1AA121F727AEB00922845 /* VirtualObjectInteraction.swift in Sources */,
+				A6A1AA091F727AAD00922845 /* Utilities.swift in Sources */,
+				A6A1AA131F727AEB00922845 /* ViewController+ARSCNViewDelegate.swift in Sources */,
+				A6A1AA061F727AAD00922845 /* StatusViewController.swift in Sources */,
+				A6A1AA0B1F727AAD00922845 /* VirtualObject.swift in Sources */,
 				A60C29111F6CC45800F6041F /* ViewController.swift in Sources */,
+				A6A1AA051F727AAD00922845 /* VirtualObjectSelection.swift in Sources */,
+				A6A1AA171F727AEB00922845 /* VirtualObjectARView.swift in Sources */,
+				A6A1AA141F727AEB00922845 /* ViewController+Actions.swift in Sources */,
 				A60C290D1F6CC45800F6041F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +372,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6U7BB57HF;
-				INFOPLIST_FILE = ProTYFamily/Info.plist;
+				INFOPLIST_FILE = ProTYFamily/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidandty.ProTYFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,7 +387,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L6U7BB57HF;
-				INFOPLIST_FILE = ProTYFamily/Info.plist;
+				INFOPLIST_FILE = ProTYFamily/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.davidandty.ProTYFamily;
 				PRODUCT_NAME = "$(TARGET_NAME)";
