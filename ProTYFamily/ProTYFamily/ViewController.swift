@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var spinner: UIActivityIndicatorView!
     
-    var sceneNode: SCNNode?
+//    var sceneNode: SCNNode?
     
     // MARK: - UI Elements
     
@@ -144,7 +144,7 @@ class ViewController: UIViewController {
         if isObjectVisible {
             focusSquare.hide()
         } else {
-//            focusSquare.unhide()
+            focusSquare.unhide()
             statusViewController.scheduleMessage("TRY MOVING LEFT OR RIGHT", inSeconds: 5.0, messageType: .focusSquare)
         }
         
@@ -169,13 +169,13 @@ class ViewController: UIViewController {
             }
         }
         
-        if let sceneNode = self.sceneNode,let planeAnchor = planeAnchor {
-            sceneNode.position = SCNVector3Make(planeAnchor.center.x, planeAnchor.center.y, planeAnchor.center.z)
-            
-            sceneView.scene.rootNode.addChildNode(sceneNode)
-            focusSquare.hide()
-            self.sceneNode = nil
-        }
+//        if let sceneNode = self.sceneNode,let planeAnchor = planeAnchor {
+//            sceneNode.position = SCNVector3Make(planeAnchor.center.x, planeAnchor.center.y, planeAnchor.center.z)
+//
+//            sceneView.scene.rootNode.addChildNode(sceneNode)
+//            focusSquare.hide()
+//            self.sceneNode = nil
+//        }
         
         addObjectButton.isHidden = false
         statusViewController.cancelScheduledMessage(for: .focusSquare)

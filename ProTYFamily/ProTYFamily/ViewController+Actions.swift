@@ -32,9 +32,9 @@ extension ViewController: UIGestureRecognizerDelegate {
                 return
         }
         
-        let gameScene = SCNScene(named: "game.scnassets/scene_1.scn")!
-        sceneNode = gameScene.rootNode.childNode(withName: "Scene",
-                                                 recursively: true)!
+//        let gameScene = SCNScene(named: "game.scnassets/scene_1.scn")!
+//        sceneNode = gameScene.rootNode.childNode(withName: "Scene",
+//                                                 recursively: true)!
     }
     
     /// Determines if the tap gesture for presenting the `VirtualObjectSelectionViewController` should be used.
